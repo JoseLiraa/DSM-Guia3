@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Example1-ChangerLanguage</string>
+    <string name="greeting1">Hello user</string>
+    <string name="greeting2">Welcome</string>
+</resources>

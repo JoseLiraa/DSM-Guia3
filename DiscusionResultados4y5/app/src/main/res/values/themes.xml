@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Example2DifferentLayouts" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+
+    <style name="AppTheme.CalculatorButton" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">36dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="AppTheme.CalculatorButton.Azul" parent="AppTheme.CalculatorButton">
+        <item name="android:background">#00537D</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="AppTheme.CalculatorButton.Rojo" parent="AppTheme.CalculatorButton">
+        <item name="android:background">#EA4D39</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

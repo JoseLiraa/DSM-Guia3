@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <Button
+            android:id="@+id/btnFrame"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="184dp"
+            android:onClick="onClickFrame"
+            android:text="Frame Layout"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#966AD3"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/btnRelative"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLinear"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="22dp"
+        android:onClick="onClickLinear"
+        android:text="Linear Layout"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D19EEA"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/btnFrame"
+        app:layout_constraintTop_toBottomOf="@+id/btnFrame" />
+
+    <Button
+        android:id="@+id/btnRelative"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="23dp"
+        android:onClick="onClickRelative"
+        android:text="Relative Layout"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#966AD3"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLinear" />
+
+        <Button
+            android:id="@+id/btnTable"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#D19EEA"
+            android:onClick="onClickTable"
+            android:text="Table Layout"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/btnRelative"
+            app:layout_constraintTop_toBottomOf="@+id/btnRelative" />
+
+
+        <Button
+            android:id="@+id/btnGrid"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#966AD3"
+            android:onClick="onClickGrid"
+            android:text="Grid Layout"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/btnTable"
+            app:layout_constraintTop_toBottomOf="@+id/btnTable" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

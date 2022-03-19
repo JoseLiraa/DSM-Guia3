@@ -10,7 +10,7 @@
 - [x] Discusion Resultado 1 - Se agrega a "Example1 | Changer Language App" el idioma francés.
 - [x] Discusion Resultado 2 - Se crea una pantalla de login utilizando exclusivamente RelativeLayout.
 - [x] Discusion Resultado 3 - Se crea una pantalla de login utilizando exclusivamente ConstraintLayout.
-- [x] Discusion Resultado 4 - Se agrega a "Example2 | Different Layouts App" un botón Salir al GridLayout para que tenga un funcionamiento similar al resto.
-- [x] Discusion Resultado 5 - Se mejora la distribución de los controles del Main Activity al "Example2 | Different Layouts App".
+- [x] Discusion Resultado 4 y 5 - Se agrega a "Example2 | Different Layouts App" un botón Salir al GridLayout para que tenga un funcionamiento similar al resto - Se mejora la distribución de los controles del Main Activity al "Example2 | Different Layouts App".
+
 
 
